@@ -14,5 +14,6 @@ a particular string of characters.
 6. `putchar()` and `getchar()` are both operators of int data which is 
 ascii code.  
 7. `EOF` means *end of file* ,whose value si `-1` .  
+8. In Clion IDE, I have to change the config file to enter EOF by Ctrl-D.  
 
 
