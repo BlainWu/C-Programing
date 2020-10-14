@@ -15,5 +15,20 @@ a particular string of characters.
 ascii code.  
 7. `EOF` means *end of file* ,whose value si `-1` .  
 8. In Clion IDE, I have to change the config file to enter EOF by Ctrl-D.  
+9. ***parameter*** is a variable named in the parenthesized list in a function
+definition, and ***argument*** is the value used in a call of the function.  
+10. ***definition*** refers to the place where the variable is created or assigned storage; 
+***declaration*** refers to places where the nature of the variables is stated but no storage is allocated .
+11. In C programming, `\0` is the mark of a string. For instance, when a string constant like `"hello\n"` 
+. It will be stored as : 
+
+|  h     |  e     | l      | l      |o       |    \n  |  \0    |
+|  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  
+12. Each local variable in a function comes into existence only when the function is called, and disapears 
+when the function is exited.  
+
+# Chapter1
+
+
 
 

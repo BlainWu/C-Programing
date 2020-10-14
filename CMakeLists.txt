@@ -3,4 +3,4 @@ project(C-Programing)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(C-Programing Ch1.c)
+add_executable(C-Programing Ex1.c)
