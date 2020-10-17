@@ -30,11 +30,25 @@ when the function is exited.
 # Chapter2  
 1. For function names and external variables, the number may be less than 31, because external names may be used by
 assemblers and loaders over which language has no control.  
+
 2. There are number of qualifiers that can be applied to these basic types.  
- - **short** and **long** apply to integers. And the int can be omitted in such declarations,
-  and typically is. Each compiler is free to choose appropriate sizes for its own hardware, 
-  subject only to the restriction that **short** is no longer than **int**, which is no longer than **long**.  
-  - ****  
+    - **short** and **long** apply to integers. And the int can be omitted in such declarations, 
+  and typically is. Each compiler is free to choose appropriate sizes for its own hardware,   
+  subject only to the restriction that **short** is no longer than **int**, which is no longer than **long**.    
+    - **signed** and **unsigned** may be applied to char or any integer.    
+    - **long double** specifies extended-precision floatin point.     
+
+3. `%` produce the remainder when x is divided by y for `x % y`. And it cannot be applied 
+to float or double.  
+4. Relational operators are `> >= == <= < !=`. Logical operators are `&& ||`.  
+5. Type conversions: In general, the only automatic conversions are those that convert 
+a "narrower" operand into a "wider" one without losing infomation. But if we convert from 
+a "wider" operand into a "narrower", which is not illegal.  
+6. Header **limits.h** includes the different types' ranges.  
+7. We declared function arguments to be `int` or `double` even when the function is called with char and float. 
+Because an argument of a function call in an expression, type conversions also take place when argements are 
+passed to functions. Such as `sqrt((double) n)`.  
+
 
 
 
