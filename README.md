@@ -27,8 +27,14 @@ definition, and ***argument*** is the value used in a call of the function.
 12. Each local variable in a function comes into existence only when the function is called, and disapears 
 when the function is exited.  
 
-# Chapter1
-
+# Chapter2  
+1. For function names and external variables, the number may be less than 31, because external names may be used by
+assemblers and loaders over which language has no control.  
+2. There are number of qualifiers that can be applied to these basic types.  
+ - **short** and **long** apply to integers. And the int can be omitted in such declarations,
+  and typically is. Each compiler is free to choose appropriate sizes for its own hardware, 
+  subject only to the restriction that **short** is no longer than **int**, which is no longer than **long**.  
+  - ****  
 
 
 
