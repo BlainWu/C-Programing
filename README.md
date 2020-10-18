@@ -49,6 +49,19 @@ a "wider" operand into a "narrower", which is not illegal.
 Because an argument of a function call in an expression, type conversions also take place when argements are 
 passed to functions. Such as `sqrt((double) n)`.  
 
+# Chapter3  
+1. And `else` is associated by the closet previous `if`. And us 
+`{ }` can make it clear. Sometimes this kind of bug can be hard to find; It's a good idea 
+to use braces when there are nested `if`.  
+2. > switch(expression){  
+   >case const-expr: statements1  break;
+   >case const-expr: statements2  break;
+   >default: statemets3  
+   >}  
+3. When use `switch`, do not forget `break`. A tip to use switch is empty case. Such as case 'a': case 'b': 
+case 'c': statements;  
+
+
 
 
 
